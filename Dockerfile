@@ -1,9 +1,8 @@
 FROM node:14-alpine as node
 WORKDIR /app
 COPY ./ /app/
-RUN npm config set registry https://registry.npm.taobao.org \
-    && npm install \
-    && npm run prod
+RUN npm install
+RUN npm run prod
 
 FROM nginx:1.15.2-alpine
 
