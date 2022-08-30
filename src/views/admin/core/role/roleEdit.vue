@@ -73,8 +73,8 @@ export default {
       this.getEntities();
     },
     async getEntities() {
-      this.entityList = await sp.get(`api/sys_role_privilege/${this.data.id}/0`);
-      this.menuList = await sp.get(`api/sys_role_privilege/${this.data.id}/1`);
+      this.entityList = await sp.get(`api/sys_role_privilege/${this.data.id}/1`);
+      this.menuList = await sp.get(`api/sys_role_privilege/${this.data.id}/2`);
     }
   }
 };
