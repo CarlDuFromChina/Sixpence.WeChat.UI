@@ -20,7 +20,6 @@ const cdn = {
     'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue-router/3.5.3/vue-router.min.js',
     'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vuex/3.6.2/vuex.min.js',
     'https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/ant-design-vue/1.7.8/antd.min.js',
-    'https://cdn.jsdelivr.net/npm/mavon-editor@2.10.4/dist/mavon-editor.min.js',
   ],
   externals: {
     moment: 'moment',
@@ -31,7 +30,6 @@ const cdn = {
     'vue-router': 'VueRouter',
     'vuex':'Vuex',
     'ant-design-vue': 'antd',
-    'mavon-editor': 'MavonEditor',
   }
 };
 
